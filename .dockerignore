@@ -1,0 +1,11 @@
+.env
+.venv/
+venv/
+aidoc/
+.git/
+.vscode/
+__pycache__/
+*.pyc
+*.mp3
+testacne.jpeg
+testacne.jpg
