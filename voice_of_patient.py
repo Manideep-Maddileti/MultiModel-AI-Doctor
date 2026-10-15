@@ -64,6 +64,3 @@ def transcribe_with_groq(stt_model, audio_filepath, GROQ_API_KEY):
 
     return transcription.text
 
-
-record_audio(file_path="testvoice1.mp3")
-print(transcription.text)

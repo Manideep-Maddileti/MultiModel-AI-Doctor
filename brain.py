@@ -49,10 +49,10 @@ def analyze_image_with_query(query, model, encoded_image):
         model=model
     )
 
-    print(chat_completion.choices[0].message.content)
+    return chat_completion.choices[0].message.content
 
 
-if __name__ == "__main__":
+""""if __name__ == "__main__":
     print("API key configured:", bool(GROQ_API_KEY))
 
     try:
@@ -63,4 +63,4 @@ if __name__ == "__main__":
         analyze_image_with_query(query, model, encoded_image)
 
     except Exception as e:
-        print(f"Error: {type(e).__name__}: {e}")
+        print(f"Error: {type(e).__name__}: {e}")"""
