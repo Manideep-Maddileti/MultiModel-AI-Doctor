@@ -44,10 +44,11 @@ def analyze_image_with_query(query, model, encoded_image):
                 },
             ],
         }]
-    chat_completion=client.chat.completions.create(
-        messages=messages,
-        model=model
-    )
+    chat_completion = client.chat.completions.create(
+    messages=messages,
+    model="qwen/qwen3.8-27b",
+    max_tokens=500,
+)
 
     return chat_completion.choices[0].message.content
 
