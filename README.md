@@ -4,6 +4,9 @@ An AI-powered medical assistance prototype that combines **voice input, speech r
 
 Users can describe their symptoms through voice, upload an image for analysis, and receive an AI-generated text response along with a spoken response.
 
+## 🚀 Live Demo
+**Watch Live:** [MultiModel AI Doctor](https://multimodel-ai-doctor-1.onrender.com/)
+
 > **Disclaimer:** This project is developed for educational and demonstration purposes only. It is not a substitute for professional medical advice, diagnosis, or treatment.
 
 ---
